@@ -1,0 +1,74 @@
+body {
+  background-color: #eeeeee;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
+
+.inputbox {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 1250px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-style: italic;
+}
+
+.forminput {
+  text-align: center;
+}
+
+.list-container {
+  font-size: 18px;
+  height: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+  list-style-type: none;
+}
+
+.tasklist {
+  height: 25px;
+  color: white;
+  border-radius: 5px;
+  border: solid;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  background-color: #7289DA;
+}
+
+.complete-btn {
+  font-family: 'Montserrat', sans-serif;
+  height: 30px;
+  width: 100px;
+  background-color: #7289DA;
+  color: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  content: right;
+}
+
+input:focus {
+  outline: none;
+}
+
+.p-tag {
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  color: #eeeeee;
+  background-color: #7289DA;
+  text-align: center;
+}
+
+.tasklist-form {
+  text-align: center;
+}
