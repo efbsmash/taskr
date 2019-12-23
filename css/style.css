@@ -59,7 +59,7 @@ input:focus {
 .p-tag {
   border: none;
   border-radius: 5px;
-  width: 300px;
+  width: 460px;
   height: 30px;
   margin: auto;
   margin-top: 10px;
@@ -71,4 +71,60 @@ input:focus {
 
 .tasklist-form {
   text-align: center;
+}
+
+.navbar-list:before {
+  content: "/ ";
+}
+
+.navbar-list {
+  display: inline;
+}
+
+.navbar-container {
+  list-style-type: none;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.navbar-link:visited {
+  color: black;
+}
+
+.navbar-link:hover {
+  color: #7289DA;
+}
+
+.index-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.title-page {
+  text-align: center;
+  font-size: 22px;
+  margin: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7289DA;
+  color: #eeeeee;
+  height: 50px;
+  font-weight: bold;
+}
+
+.p-title {
+  padding-top: 10px;
+}
+
+.taskr-logo {
+  margin-top: 150px;
 }
